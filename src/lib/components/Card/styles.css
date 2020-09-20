@@ -2,5 +2,6 @@
   padding: 14px;
   border: 1px solid whitesmoke;
   border-radius: 4px;
-  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+  background-color: white;
 }
