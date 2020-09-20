@@ -1,18 +1,17 @@
 .button {
   position: relative;
-  background-color: #4CAF50;
+  background-color: green;
   border: none;
-  font-size: 28px;
+  font-size: 16px;
   color: #FFFFFF;
-  padding: 20px;
-  width: 200px;
+  padding: 8px 12px;
   text-align: center;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   text-decoration: none;
   overflow: hidden;
   cursor: pointer;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 4px;
 }
 
 .button:after {
