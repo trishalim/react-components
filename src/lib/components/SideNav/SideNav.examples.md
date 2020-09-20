@@ -4,11 +4,15 @@ SideNav examples:
 ```js
 import { SideNav } from 'react-rollup-boilerplate';
 
+const onClick = name => {
+  alert(`Nav item ${name} clicked!`);
+}
+
 const items = [
-  { name: 'Home' },
-  { name: 'Account' },
-  { name: 'Settings' },
-  { name: 'Help' }
+  { name: 'Home', onClick: () => onClick('Home') },
+  { name: 'Account', onClick: () => onClick('Account') },
+  { name: 'Settings', onClick: () => onClick('Settings') },
+  { name: 'Help', onClick: () => onClick('Help') }
 ];
 
 <SideNav items={items} />

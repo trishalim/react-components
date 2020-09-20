@@ -11,12 +11,17 @@ export interface ISideNavProps {
 }
 
 export const SideNav: FC<ISideNavProps> = ({ items }) => (
-  <div>
+  <div className="side-nav">
     {
       items.map(item => (
-        <div key={item.name}>
+        <button
+          type="button"
+          className="side-nav__item"
+          key={item.name}
+          onClick={item.onClick}
+        >
           {item.name}
-        </div>
+        </button>
       ))
     }
   </div>
