@@ -2,7 +2,7 @@ SideNav examples:
 
 ###### SideNav
 ```js
-import { SideNav } from 'react-rollup-boilerplate';
+import { SideNav } from 'react-components';
 
 const onClick = name => {
   alert(`Nav item ${name} clicked!`);

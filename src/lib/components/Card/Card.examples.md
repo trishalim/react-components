@@ -2,7 +2,7 @@ Card examples:
 
 ###### Card
 ```js
-import { Card } from 'react-rollup-boilerplate';
+import { Card } from 'react-components';
 
 const onClick = name => {
   alert(`Nav item ${name} clicked!`);
